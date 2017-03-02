@@ -13,3 +13,19 @@ Sämtliche Inhalte dieses Repositories stehen unter der CreativeCommons Lizenz C
 
 * **DE:** http://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 * **EN:** http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+
+## Build
+* Install AVR-GCC toolchain and cmake
+```
+sudo apt-get install cmake avr-libc binutils-avr gcc-avr avrdude
+```
+* Clone repository
+```
+git clone https://github.com/lxrobotics/Battleswitch.git
+```
+* Build
+```
+cd software
+cmake .
+make
+```
