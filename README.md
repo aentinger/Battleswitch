@@ -32,7 +32,7 @@ The LXRobotics Battleswitch enables the control of up to 2 actuators over a sing
 # 💻 Build
 ```bash
 sudo apt-get install cmake avr-libc binutils-avr gcc-avr avrdude
-git clone https://github.com/lxrobotics/Battleswitch && cd Battleswitch/software
+git clone https://github.com/aentinger/Battleswitch && cd Battleswitch/software
 mkdir build && cd build
 cmake ..
 make
