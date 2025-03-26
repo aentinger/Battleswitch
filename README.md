@@ -1,13 +1,14 @@
-LXRobotics P18 Battleswitch
-===========================
+<a href="https://lxrobotics.com/"><img align="right" src="https://assets.lxrobotics.com/logo-old/lxrobotics.png" width="15%"></a>
+💾 Battleswitch
+===============
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-# Image
+# 📸 Image
 
-![LXRobotics P18 Battleswitch](https://raw.githubusercontent.com/lxrobotics/Battleswitch/master/images/battleswitch-side-small.jpg)
+![LXRobotics P18 Battleswitch](images/battleswitch-side-small.jpg)
 
-# Description
+# 📂 Description
 
 A battleswitch is an electronic module which is responsible for the activation/deactivation of weapon systems in combat robots. More generally spoken, a battleswitch is a module which enables the switching of loads using an ordinary remote control.
 
@@ -26,18 +27,13 @@ The LXRobotics Battleswitch enables the control of up to 2 actuators over a sing
 * 3 x M3 holes for stable mounting of the Battleswitch
 * Small size: 50 x 50 mm (L x W)
 
-# Build
-* Install AVR-GCC toolchain and cmake
-```
+# 🎥 [Video](images/battleswitch_demo.mp4)
+
+# 💻 Build
+```bash
 sudo apt-get install cmake avr-libc binutils-avr gcc-avr avrdude
-```
-* Clone repository
-```
-git clone https://github.com/lxrobotics/Battleswitch.git
-```
-* Build
-```
-cd software
-cmake .
+git clone https://github.com/lxrobotics/Battleswitch && cd Battleswitch/software
+mkdir build && cd build
+cmake ..
 make
 ```
